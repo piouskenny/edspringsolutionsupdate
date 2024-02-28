@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  font-family: Forum;
+} */
+
+p {
+  font-family: Forum;
+}
+
+.nav_bar {
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* Mobile Menu and Her0 Section */
+@media (max-width: 600px) {
+  #menu {
+    width: 100%;
+    /* margin-left: 30%; */
+  }
+
+  #hero {
+    background-image: url(../src/assets/img/image-web-3-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .nav_bar {
+    width: 100%;
+  }
+}
+
+
+.image-border {
+  @apply rounded-tr-[40px] rounded-bl-[40px];
+}
