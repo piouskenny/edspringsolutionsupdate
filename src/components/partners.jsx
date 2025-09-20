@@ -6,6 +6,7 @@ import Port5 from "../assets/portfolios/port5.png";
 import Port6 from "../assets/portfolios/port6.png";
 import Port7 from "../assets/portfolios/port7.png";
 import Port8 from "../assets/portfolios/port8.png";
+import Port9 from "../assets/portfolios/port9.jpg";
 
 const Partners = () => {
   return (
@@ -73,6 +74,13 @@ const Partners = () => {
               alt="Partner 1"
             />
           </div>
+          <div className="col-1">
+            <img
+              className="md:w-40 md:h-40 h-[60px] w-[100px] object-center"
+              src={Port9}
+              alt="Partner 1"
+            />
+          </div>    
         </div>
       </section>
     </>
