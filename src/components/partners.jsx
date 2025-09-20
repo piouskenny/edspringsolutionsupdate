@@ -5,7 +5,7 @@ import Port4 from "../assets/portfolios/port4.png";
 import Port5 from "../assets/portfolios/port5.png";
 import Port6 from "../assets/portfolios/port6.png";
 import Port7 from "../assets/portfolios/port7.png";
-import Port8 from "../assets/portfolios/port8.png";
+import Port8 from "../assets/portfolios/port8.jpg";
 import Port9 from "../assets/portfolios/port9.jpg";
 
 const Partners = () => {
